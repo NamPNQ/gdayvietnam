@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="G|DayX 2013">
+    <meta name="author" content="GDG Vietnam">
+    <!-- styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style2.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--End Subsystems Login Styles -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="aico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicong.ico">
+    <style id="holderjs-style" type="text/css">.holderjs-fluid {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+        margin: 0
+    }</style>
+</head>
+<body>
+<header class="container">
+    <div class="row">
+        <div class="span3 logo">
+            <a href="/"><img src="img/gdayx.png" width="174px" height="174px"/></a>
+        </div>
+        <div id="headerText" class="span7">
+            <h1 class="featurette-heading" style="color: #0070b8;" align="center"><a href="/">G|DayX 2013</a>
+            </h1>
+
+            <div id="subtext">
+                <!--<span class="muted" style="font-size:30px;color: #678BC7;">Let's re-discover SEARCH</span>-->
+            </div>
+        </div>
+
+        <div id="gplus" class="span2">
+
+            <!-- Place this tag where you want the widget to render. -->
+            <div class="g-follow" data-annotation="vertical-bubble" data-height="24" data-href="{{ gpluspage }}"
+                 data-rel="publisher"></div>
+
+            <!-- Place this tag after the last widget tag. -->
+            <script type="text/javascript">
+                (function () {
+                    var po = document.createElement('script');
+                    po.type = 'text/javascript';
+                    po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(po, s);
+                })();
+            </script>
+
+        </div>
+    </div>
+</header>
+<!-- Nav
+================================================== -->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container" style="width: auto;">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+
+            <div class="nav-collapse" style="font-family:none;">
+                <nav id="navegador">
+                    <ul class="nav">
+                        <li class="">
+                            <a href="/">
+                                <div class="circulo" id="c-presentacion">
+                                    <span class="icoMenu" id="ico-presentacion">U</span>
+
+                                    <div class="textMenu">
+                                        <h6 class="tituMenu" id="tt-presentacion" style="top:50px;">ABOUT</h6>
+                                        <h7 class="subTituMenu" id="st-presentacion"><b>What is GDayX</b></h7>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/agenda">
+                                <div class="circulo" id="c-agenda">
+                                    <span class="icoMenu text-center" id="ico-agenda">p</span>
+
+                                    <div class="textMenu">
+                                        <h6 class="tituMenu" id="tt-agenda" style="top:50px;">AGENDA</h6>
+                                        <h7 class="subTituMenu" id="st-agenda"><b>What can i learn</b></h7>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/speakers">
+                                <div class="circulo" id="c-speaker">
+                                    <span class="icoMenu" id="ico-speaker">e</span>
+
+                                    <div class="textMenu">
+                                        <h6 class="tituMenu" id="tt-speaker" style="top:50px;">SPEAKERS</h6>
+                                        <h7 class="subTituMenu" id="st-speaker"><b>Who is speaking</b></h7>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/partners">
+                                <div class="circulo" id="c-sponsor">
+                                    <span class="icoMenu" id="ico-sponsor">Z</span>
+
+                                    <div class="textMenu">
+                                        <h6 class="tituMenu" id="tt-sponsor" style="top:50px;">PARTNERS</h6>
+                                        <h7 class="subTituMenu" id="st-sponsor"><b>Who is organizing</b></h7>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/location">
+                                <div class="circulo" id="c-fotos">
+                                    <span class="icoMenu" id="ico-fotos">I</span>
+
+                                    <div class="textMenu">
+                                        <h6 class="tituMenu" id="tt-fotos" style="top:50px;">LOCATION</h6>
+                                        <h7 class="subTituMenu" id="st-fotos"><b>How to get there</b></h7>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/register">
+                                <div class="circulo" id="c-registrate">
+                                    <span class="icoMenu" id="ico-registrate">/</span>
+
+                                    <div class="textMenu">
+                                        <h6 class="tituMenu" id="tt-registrate" style="top:50px;">REGISTER</h6>
+                                        <h7 class="subTituMenu" id="st-registrate"><b>How to get a seat</b></h7>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container marketing" align="left">
+    {% block content %}
+    {% endblock %}
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <img src="img/footer.png"><br>
+
+            <p class="text-info">Hashtags&nbsp;|&nbsp;&nbsp;#gdayxvn&nbsp;&nbsp;#gdg&nbsp;&nbsp;#gbg&nbsp;&nbsp;-&nbsp;&nbsp;<a
+                    href="https:{{ gpluspage }}/posts" target="blank">Find us on <b>Google+</b>
+            </a></p>
+        </div>
+    </footer>
+</div>
+<!-- /.container -->
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<!--<script src="assets/js/bootstrap-transition.js"></script>
+<script src="assets/js/bootstrap-alert.js"></script>
+<script src="assets/js/bootstrap-modal.js"></script>
+<script src="assets/js/bootstrap-dropdown.js"></script>
+<script src="assets/js/bootstrap-tooltip.js"></script>
+<script src="assets/js/bootstrap-popover.js"></script>
+<script src="assets/js/bootstrap-button.js"></script>
+<script src="assets/js/bootstrap-collapse.js"></script>
+<script src="assets/js/bootstrap-carousel.js"></script>
+<script src="assets/js/bootstrap-typeahead.js"></script>
+<script src="assets/js/bootstrap-scrollspy.js"></script>-->
+<script src="js/bootstrap-tab.js"></script>
+
+<script>
+    $(function () {
+        $('#myTab a:last').tab('show');
+    })
+</script>
+
+</body>
+</html>
